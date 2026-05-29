@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ea5a6e9339f4ab99df32918326086f7, type: 3}
+  m_Name: Items
+  m_EditorClassIdentifier: 
+  Guns:
+  - Item:
+      itemTypes: 0
+      canBeStackedMax: 1
+      itemSprite: {fileID: 21300000, guid: 53cacdb8730d882ef9b9f50374f3c1d7, type: 3}
+      itemPref: {fileID: 2708138592593399869, guid: c38dd8ebe57579182af79f8752e65040, type: 3}
+      itemOnPlayerTransform: {fileID: 0}
+      itemDisPlayer: {fileID: 0}
+    Damage: 0
+    MaxAmmoCanHold: 0
+    Recoil: 0
+    Reload: 0
+    ReloadTime: 0
+    CurrentAmmoAmount: 0
+    SelectedGunType: 1
+    SelectedGunExtremer: 0
+    ItemType: 0
+  Bandages:
+  - Item:
+      itemTypes: 2
+      canBeStackedMax: 5
+      itemSprite: {fileID: 21300000, guid: 909b81cdac6ca857dbc4115172c4069e, type: 3}
+      itemPref: {fileID: 3741370636889082635, guid: d1d5c177a10d263a886ae6ad5f7cd319, type: 3}
+      itemOnPlayerTransform: {fileID: 0}
+      itemDisPlayer: {fileID: 0}
+    RecoveryTime: 0
+    RecoveryPower: 0
+    ItemType: 2
+    SelectedBandageExtremer: 0
+    BandageType: 1
+  - Item:
+      itemTypes: 2
+      canBeStackedMax: 1
+      itemSprite: {fileID: 21300000, guid: 909b81cdac6ca857dbc4115172c4069e, type: 3}
+      itemPref: {fileID: 3741370636889082635, guid: d1d5c177a10d263a886ae6ad5f7cd319, type: 3}
+      itemOnPlayerTransform: {fileID: 0}
+      itemDisPlayer: {fileID: 0}
+    RecoveryTime: 0
+    RecoveryPower: 0
+    ItemType: 2
+    SelectedBandageExtremer: 0
+    BandageType: 1
+  Grenades:
+  - Item:
+      itemTypes: 4
+      canBeStackedMax: 3
+      itemSprite: {fileID: 21300000, guid: e31f07b09281cf98baa04527ff459a70, type: 3}
+      itemPref: {fileID: 8435115405700746329, guid: 36a5e14f08c3432b098c1b977e7093c8, type: 3}
+      itemOnPlayerTransform: {fileID: 0}
+      itemDisPlayer: {fileID: 0}
+    ExplosionPower: 0
+    TargetRange: 0
+    ExplosionTime: 0
+    ItemType: 4
+    SelectedGrenadeExtremer: 0
+    GrenadeTypes: 1
+  Ammos:
+  - Item:
+      itemTypes: 1
+      canBeStackedMax: 20
+      itemSprite: {fileID: 21300000, guid: dc98cd04d900e0792b7ada2e8db39250, type: 3}
+      itemPref: {fileID: 1266730125890362262, guid: 1f5b5de186ab2f88ba84781d953fe1f1, type: 3}
+      itemOnPlayerTransform: {fileID: 0}
+      itemDisPlayer: {fileID: 0}
+    ItemType: 0
+    SelectedAmmoExtremer: 0
+    GunTypes: 1
+  Drinks:
+  - Item:
+      itemTypes: 3
+      canBeStackedMax: 10
+      itemSprite: {fileID: 21300000, guid: 7f074932ab28cff8ab78d2754fcb42ef, type: 3}
+      itemPref: {fileID: 3741370636889082635, guid: 99b1b74d61e12b7cab62c28e5c4fd9be, type: 3}
+      itemOnPlayerTransform: {fileID: 0}
+      itemDisPlayer: {fileID: 0}
+    ItemType: 3
+    SelectedGrenadeExtremer: 0
+    DrinkTypes: 1
